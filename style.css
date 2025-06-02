@@ -1,0 +1,14 @@
+/* style.css */
+header {
+  display: flex;               /* Enables flex layout */
+  justify-content: space-between; /* Push items apart horizontally */
+  align-items: center;         /* Vertically center items */
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+}
+nav a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
