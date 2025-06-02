@@ -1,4 +1,12 @@
 /* style.css */
+/* Base styles for mobile devices */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;  /* Base font size for mobiles */
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-color: #4CAF50;
   --secondary-color: #f4f4f4;
@@ -7,14 +15,7 @@
   --border-radius: 8px;
 }
 
-/* header {
-  display: flex;               /* Enables flex layout */
-  justify-content: space-between; /* Push items apart horizontally */
-  align-items: center;         /* Vertically center items */
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-} */
+
 
 header {
   background-color: var(--primary-color);
@@ -46,4 +47,13 @@ section {
   border-radius: var(--border-radius);
   color: var(--text-color);
 }
+/* For screens wider than 768px (tablet and desktop) */
+@media (min-width: 768px) {
+  body {
+    font-size: 20px; /* Increase font size on bigger screens */
+  }
+
+ 
+  }
+
 
